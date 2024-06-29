@@ -62,8 +62,9 @@ group :development do
   gem "error_highlight", ">= 0.4.0", platforms: [:ruby]
 end
 
-gem 'bootstrap', '~> 5.2', '>= 5.2.3'
-gem 'sassc-rails'
+gem "bootstrap", "~> 5.2"
+gem "sassc-rails"
+gem "font-awesome-sass", "~> 6.1"
 
 
 group :test do
